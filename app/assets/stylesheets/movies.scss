@@ -1,0 +1,85 @@
+// Place all the styles related to the movies controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("http://vintagefilm.typepad.com/photos/uncategorized/dsc_0033a.jpg");
+  background-color: black;
+  background-attachment: fixed;
+  background: (45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
+}
+#plot, #director, #actors, #year{
+  font-size: 18px;
+  font-family: 'Contrail One', cursive;
+}
+#rating{
+  display: inline-block;
+}
+#score{
+display: inline-block;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #EEEE00, 0 0 70px #EEEE00, 0 0 80px #EEEE00, 0 0 100px #EEEE00, 0 0 150px #EEEE00;
+}
+#button{
+  background-color: #7c28a6;
+  color: red;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #AA00FF, 0 0 70px #AA00FF, 0 0 80px #AA00FF, 0 0 100px #AA00FF, 0 0 150px #AA00FF;
+}
+#searchfield{
+  text-align: center;
+}
+.title, #rating{
+  color: #a22121;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #AA00FF, 0 0 70px #AA00FF, 0 0 80px #AA00FF, 0 0 100px #AA00FF, 0 0 150px #AA00FF;
+  font-family: 'Contrail One', cursive;
+}
+h3{
+  color: white;
+}
+h4{
+  color: white;
+}
+
+
+
+
+
+//////neon//////
+
+@font-face {
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  }
+#container {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+p:nth-child(1) {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  font-size: 400%;
+  color: #a22121;
+  font-family: Monoton;
+
+}
+
+p:nth-child(1){
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+
+/**neon**/
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #AA00FF, 0 0 70px #AA00FF, 0 0 80px #AA00FF, 0 0 100px #AA00FF, 0 0 150px #AA00FF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #AA00FF, 0 0 35px #AA00FF, 0 0 40px #AA00FF, 0 0 50px #AA00FF, 0 0 75px #AA00FF;
+  }
+}
